@@ -180,9 +180,6 @@ img {
   border-radius: 50%;
   margin-left: -50%;
   display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
@@ -197,14 +194,11 @@ img {
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
     width: 150px;
-    margin-top: -100px;
+    margin-top: -85px;
   }
 
   .navbar-custom .avatar-container .avatar-img-border {
     width: 100%;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
   }
 
   .navbar-custom .avatar-container .avatar-img {
@@ -534,6 +528,10 @@ footer .theme-by {
   .intro-header.big-img .img-desc {
     font-size: 14px;
   }
+}
+
+.header-section {
+  padding-top:65px;
 }
 
 .header-section.has-img .no-img {
