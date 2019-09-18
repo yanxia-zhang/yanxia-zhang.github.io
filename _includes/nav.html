@@ -1,11 +1,10 @@
 <section style="height:160px;">
   <nav class="navbar-default navbar-fixed-top navbar-custom navbar">
-    <div class="avatar-container">
+    <div class="avatar-container" id="avatar" style="transition: 0.2s;">
       <div class="avatar-img-border">
-        <img class="avatar-img" src="/img/Yanxia-300x300.jpg" />
+        <img class="avatar-img" src="/img/Yanxia-600x600.jpg" />
       </div>
     </div>
-
     <center>
       <div style="width:90%">
         <div class="navbar-brand navbar-brand-owner">Dr. Yanxia Zhang</div>
@@ -16,5 +15,14 @@
       </div>
     </center>
   </nav>
-  <!-- <div style="position:fixed; background-color: white; width:100%; height:160px;"></div> -->
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        document.getElementById("avatar").style.width = "85px";
+      } else {
+        document.getElementById("avatar").style.width = "150px";
+      }
+    }
+  </script>
 </section>
