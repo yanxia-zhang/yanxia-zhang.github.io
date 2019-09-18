@@ -22,6 +22,10 @@ p {
   padding: 20px 15%;
 }
 
+.cv_p {
+  margin-left: 50px;
+}
+
 .big_h1 {
     font-size: 48px;
 }
