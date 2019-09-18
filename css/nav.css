@@ -1,0 +1,73 @@
+/* --- Navbar --- */
+
+.navbar-custom {
+  border-bottom: 1px solid #EAEAEA;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Open Sans', sans-serif;
+}
+
+.navbar-custom .navbar-brand-title {
+  clear: left;
+  font-size: 14px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height:10px;
+  color: #AAA;
+  text-align: left;
+}
+
+.navbar-custom .navbar-brand-owner {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.navbar-custom .navbar-brand-navigation {
+  float: right;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-custom {
+    /*padding: 60px 0;*/
+    padding-top: 25px;
+    padding-bottom: 20px;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+}
+
+.navbar-custom .avatar-container {
+  position: absolute;
+  left: 50%;
+}
+
+.navbar-custom .avatar-container .avatar-img-border {
+  width: 100%;
+  border-radius: 50%;
+  margin-left: -50%;
+  display: inline-block;
+}
+
+.navbar-custom .avatar-container .avatar-img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-custom .avatar-container {
+    width: 150px;
+    margin-top: -15px;
+  }
+}
+
+#avatar {
+  transition: 0.5s;
+}
+
+.navbar-content-size {
+  width: 80%;
+}
