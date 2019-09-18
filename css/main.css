@@ -37,57 +37,10 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
   padding-left: 15%;
   padding-right: 15%;
-  /*padding-top: 10px;*/
-}
-
-blockquote {
-  color: #808080;
-  font-style: italic;
-}
-
-blockquote p:first-child {
-  margin-top: 0;
-}
-
-hr.small {
-  max-width: 100px;
-  margin: 15px auto;
-  border-width: 4px;
-  border-color: inherit;
-  border-radius: 3px;
-}
-
-.main-content {
-  padding-top: 80px;
-}
-
-@media only screen and (min-width: 768px) {
-  .main-content {
-    padding-top: 130px;
-  }
-}
-
-.main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 15px inherit;
-}
-
-.hideme {
-  display: none;
 }
 
 img {
   max-width: 100%;
-}
-
-.disqus-comments {
-  margin-top: 30px;
-}
-
-@media only screen and (min-width: 768px) {
-  .disqus-comments {
-    margin-top: 40px;
-  }
 }
 
 .linked-section {
