@@ -22,10 +22,16 @@ p {
   padding: 20px 15%;
 }
 
+.big_h1 {
+    font-size: 48px;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  padding: 0 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+  /*padding-top: 10px;*/
 }
 
 blockquote {
