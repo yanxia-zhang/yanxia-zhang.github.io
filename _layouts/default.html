@@ -29,17 +29,10 @@ layout: base
 <html lang="en">
   {% include head.html %}
   <body>
-    {% if null %}
-      {% include gtm_body.html %}
-    {% endif %}
 
     {% include nav.html %}
 
-    {% if null %}
-      {{ content }}
-      {% include footer.html %}
-      {% include footer-scripts.html %}
-    {% endif %}
+    {% include footer.html %}
 
   </body>
 </html>

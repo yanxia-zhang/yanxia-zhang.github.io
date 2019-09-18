@@ -1,44 +1,28 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-    <!--
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    -->
-      <div class="navbar-brand">Dr. Yanxia Zhang</div>
+<div style="height:160px;">
+<nav class="navbar-default navbar-fixed-top navbar-custom navbar">
+  <div class="avatar-container">
+    <div class="avatar-img-border">
+      <img class="avatar-img" src="/img/Yanxia-300x300.jpg" />
     </div>
-
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-      {%- for link in site.navbar-links -%}
-        {%- if link[1].first %}
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-            <div class="navlinks-children">
-              {%- for childlink in link[1] -%}
-              {%- for linkparts in childlink %}
-              <a href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
-              {%- endfor -%}
-              {%- endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li><a href="{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
-        {%- endif -%}
-      {%- endfor -%}
-      </ul>
-    </div>
-
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	      <img class="avatar-img" src="/img/Yanxia-300x300.jpg" />
-	  </div>
-	</div>
-
   </div>
+
+  <center>
+    <div style="width:90%">
+      <div class="navbar-brand navbar-brand-owner">Dr. Yanxia Zhang</div>
+      <div class="navbar-brand navbar-brand-navigation"><a>Software</a></div>
+      <div class="navbar-brand navbar-brand-navigation"><a>Publications</a></div>
+      <div class="navbar-brand navbar-brand-navigation"><a>About Me</a></div>
+      <div class="navbar-brand-title navbar-brand">Researcher in Computer Vision, Machine Learning and HCI</div>
+    </div>
+  </center>
+
 </nav>
+</div>
+<!-- <div style="margin-bottom: 10%">
+  &nbsp;
+</div> -->
+
+
+<center>
+<h1>About Me</h1>
+</center>
