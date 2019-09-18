@@ -4,6 +4,10 @@ layout: null
 
 /* --- General --- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
